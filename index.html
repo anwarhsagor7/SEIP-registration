@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration for SEIP project | BITM</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css" type="text/css">
+</head>
+
+<body>
+	<div style="text-align: right;">
+		<a href="http://basis.org.bd/">
+			<img src="https://seip.basis.org.bd/assets/images/frontend/basis_logo.png" alt="logo" width="115">
+		</a>
+	</div>
+	<div>
+		<ul>
+			<li><a href="https://seip.basis.org.bd/seip" target="_blank">Home</a></li>
+		</ul>
+	</div>
+
+	<br>
+
+	<h1>Registration for SEIP Project</h1>
+
+	<form>
+		<table>
+			<tr>
+				<td colspan="2">Select Course: (In SEIP project one person will be eligible for one course only)</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td colspan="2">First Preference:<span>*</span> &nbsp;&nbsp;&nbsp;&nbsp;<select name="course" id="course">
+						<option value="">Select Course</option>
+						<option value="web">Web Design</option>
+						<option value="graphics">Graphics Design</option>
+					</select>
+				</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td colspan="2">Name:<span>*</span> <br>
+					<input type="text" name="name" size="40">
+				</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td><label>Father's Name:<span>*</span><br><input type="text" name="fname"></label></td>
+				<td><label>Mother's Name:<span>*</span><br><input type="text" name="mname"></label></td>
+				<td>Gender:<span>*</span> <br><select name="gender" id="gender">
+						<option value="">Select Gender</option>
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2"><label>National ID:<br><input type="number" name="nid"></label></td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td><label>Date of Birth:<span>*</span><br><input type="date" name="dob"></label></td>
+				<td>Religion:<span>*</span> <br><select name="religion" id="religion">
+						<option value="">Select Religion</option>
+						<option value="islam">Islam</option>
+						<option value="hindu">Hinduism</option>
+					</select>
+				</td>
+				<td>Ethnic Group:<span>*</span> <br><select name="ethn" id="ethn">
+						<option value="">Select Ethnic Group</option>
+						<option value="garo">Garo</option>
+						<option value="chakma">Chakma</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Mobile<span>*</span>: <br>
+					<input type="tel" name="mobile" size="40">
+				</td>
+				<td>Email<span>*</span>: <br>
+					<input type="email" name="email" size="40">
+				</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>Is Employed? 
+					<input type="radio" name="employment" value="yes">Yes
+					<input type="radio" name="employment" value="no">No
+				</td>
+				<td colspan="2">Monthly Income: <br>
+					<input type="text" name="income" size="40">
+				</td>
+			</tr>
+		</table>
+		<h2>Present Addres</h2>
+
+		<table>
+			<tr>
+				<td colspan="3">Address:<span>*</span> <br>
+					<input type="text" name="address" size="110">
+				</td>
+			</tr>
+
+			<tr>
+				<td>City:<span>*</span> <br>
+					<input type="text" name="city" size="40">
+				</td>
+				<td>Post Code:<span>*</span> <br>
+					<input type="text" name="pcode" size="40">
+				</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>Division:<span>*</span> <br><select name="division" id="division1">
+						<option value="">Select Division</option>
+						<option value="dhk">Dhaka</option>
+						<option value="mym">Mymensingh</option>
+					</select>
+				</td>
+				<td>District:<span>*</span> <br><select name="dist" id="dist1">
+						<option value="">Select District</option>
+						<option value="jp">Jamalpur</option>
+						<option value="tang">Tangail</option>
+					</select>
+				</td>
+				<td>Sub-District:<span>*</span> <br><select name="subdist" id="subdist1">
+						<option value="">Select Sub-District</option>
+						<option value="jpsadar">Jamalpur Sadar</option>
+						<option value="sbari">Sharishabari</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+		<h2>Permanent Addres</h2>
+
+		<table>
+			<tr>
+				<td colspan="3">Address:<span>*</span> <br>
+					<input type="text" name="address" size="110">
+				</td>
+			</tr>
+
+			<tr>
+				<td>City:<span>*</span> <br>
+					<input type="text" name="city" size="40">
+				</td>
+				<td>Post Code:<span>*</span> <br>
+					<input type="text" name="pcode" size="40">
+				</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>Division:<span>*</span> <br><select name="division" id="division2">
+						<option value="">Select Division</option>
+						<option value="dhk">Dhaka</option>
+						<option value="mym">Mymensingh</option>
+					</select>
+				</td>
+				<td>District:<span>*</span> <br><select name="dist" id="dist2">
+						<option value="">Select District</option>
+						<option value="jp">Jamalpur</option>
+						<option value="tang">Tangail</option>
+					</select>
+				</td>
+				<td>Sub-District:<span>*</span> <br><select name="subdist" id="subdist2">
+						<option value="">Select Sub-District</option>
+						<option value="jpsadar">Jamalpur Sadar</option>
+						<option value="sbari">Sharishabari</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+		<h2>Highest Academic Achievement</h2>
+
+		<table>
+			<tr>
+				<td>Level of Education: <br><select name="edu" id="edu">
+						<option value="">Select Education Level</option>
+						<option value="ssc">SSC</option>
+						<option value="hsc">HSC</option>
+					</select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</td>
+				<td>Institute: <br>
+					<input type="text" name="institute" size="40">
+				</td>
+			</tr>
+
+			<tr>
+				<td>Subject: <br>
+					<input type="text" name="subject" size="40">
+				</td>
+				<td>Year: <br>
+					<input type="text" name="year" size="40">
+				</td>
+			</tr>
+		</table>
+
+		<section>
+			<h2>Photo</h2>
+			<input type="file" class=nb>
+			<p>Image size should be 300x300 (Max 100KB) in JPG Format</p>
+		</section>
+
+		<section>
+			<h2>Security</h2>
+			<p>Type the code:<span>*</span></p> <br>
+			<input type="text" name="city" size="40">
+			<div class="lastpic">
+				<img src="https://seip.basis.org.bd/captcha/1688856599.552.jpg" alt="captcha">
+			</div>
+		</section> <br> <br>
+
+		<div id="button">
+			<button type="reset" id="reset"><strong>Reset</strong></button>
+			<button type="submit" id="submit"><strong>Send</strong></button>
+		</div>
+
+	</form>
+
+	<footer>Copyright &copy; 2023 BITM. All rights reserved.<sup>&reg;</sup></footer>
+	</body>
+</html>

@@ -1,0 +1,79 @@
+body {
+			width: 1050px;
+			margin-left: 125px;
+			font-family: 'Oswald', sans-serif;
+		}
+
+		ul li {
+			list-style: none;
+			background-color: navy;
+			width: 50px;
+			height: 30px;
+			padding-left: 12px;
+			padding-top: 13px;
+			padding-bottom: 5px;
+			margin: 2px;
+			border: 2px solid navy;
+			float: right;
+		}
+
+		a {
+			color: white;
+			text-decoration: none;
+		}
+
+		 td {
+			padding: 6px;
+		}
+
+		input, select {
+			border: 1px solid limegreen;
+		}
+
+		.nb {
+			border: none;
+		}
+
+		h1 {
+			border-bottom: 1px solid limegreen;
+			margin-bottom: 10px;
+			padding-bottom: 3px;
+			color: navy;
+			font-weight: bold;
+		}
+
+		h2 {
+			border-bottom: 1px solid lightgray;
+			margin-bottom: 10px;
+			padding-bottom: 3px;
+		}
+
+		span {
+			color: red;
+		}
+
+		.lastpic {
+			margin-top:20px;
+			display: inline;
+			float: right;
+			margin-top: -2.9px;
+			margin-right: 600px;
+		}
+
+		#button {
+			float: right;
+			margin-right: 500px;
+		}
+
+		#reset {
+			background-color: gray;
+		}
+
+		#submit {
+			background-color: lightgreen;
+		}
+
+		footer {
+			text-align: center;
+			margin-top: 40px;
+		}
